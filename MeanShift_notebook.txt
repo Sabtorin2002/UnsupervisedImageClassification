@@ -1,0 +1,153 @@
+
+bandwidth = estimate_bandwidth(X, quantile=0.2, n_samples=500)
+
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=300, cluster_all=True, min_bin_freq=5)
+Number of Clusters: 18
+Silhouette Score: 0.5142822861671448
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=300, cluster_all=False, min_bin_freq=5)
+Number of Clusters: 19
+Silhouette Score: 0.47483423352241516
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=False, min_bin_freq=5)
+Number of Clusters: 19
+Silhouette Score: 0.47483423352241516
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=False, min_bin_freq=10)
+Number of Clusters: 8
+Silhouette Score: 0.47021719813346863
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=10)
+Number of Clusters: 7
+Silhouette Score: 0.48325029015541077
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=15)
+Number of Clusters: 6
+Silhouette Score: 0.4789608120918274
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=20)
+Number of Clusters: 4
+Silhouette Score: 0.47670209407806396
+
+
+
+bandwidth = estimate_bandwidth(X, quantile=0.3, n_samples=500)
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=10)
+Number of Clusters: 7
+Silhouette Score: 0.48750221729278564
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=3)
+Number of Clusters: 20
+Silhouette Score: 0.5029827356338501
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=2)
+Number of Clusters: 32
+Silhouette Score: 0.49419716000556946
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=5)
+Number of Clusters: 32
+Silhouette Score: 0.49419716000556946
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=False, min_bin_freq=5)
+Number of Clusters: 16
+Silhouette Score: 0.4753120243549347
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=10)
+Number of Clusters: 7
+Silhouette Score: 0.48750221729278564
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=20)
+Number of Clusters: 4
+Silhouette Score: 0.45028698444366455
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=25)
+Number of Clusters: 4
+Silhouette Score: 0.45028698444366455
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=False, max_iter=1000, cluster_all=True, min_bin_freq=5)
+Number of Clusters: 241
+Silhouette Score: 0.44072145223617554
+
+
+bandwidth = estimate_bandwidth(X, quantile=0.4, n_samples=500)
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=3)
+Number of Clusters: 15
+Silhouette Score: 0.47763049602508545
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=2)
+Number of Clusters: 28
+Silhouette Score: 0.4768821597099304
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=5)
+Number of Clusters: 9
+Silhouette Score: 0.47705206274986267
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=False, max_iter=1000, cluster_all=True, min_bin_freq=5)
+Number of Clusters: 185
+Silhouette Score: 0.46546992659568787
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=False, max_iter=1000, cluster_all=True, min_bin_freq=10)
+Number of Clusters: 185
+Silhouette Score: 0.46546992659568787
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=10)
+Number of Clusters: 5
+Silhouette Score: 0.4740312099456787
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=1000, cluster_all=True, min_bin_freq=20)
+Number of Clusters: 3
+Silhouette Score: 0.4579204320907593
+
+
+
+
+bandwidth = estimate_bandwidth(X, quantile=0.5, n_samples=500)
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=3)
+Number of Clusters: 3
+Silhouette Score: 0.45045173168182373
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=False, max_iter=500, cluster_all=True, min_bin_freq=3)
+Number of Clusters: 59
+Silhouette Score: 0.42513957619667053
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=5)
+Number of Clusters: 2
+Silhouette Score: 0.4886341392993927
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=10)
+Number of Clusters: 2
+Silhouette Score: 0.4886341392993927
+
+
+
+
+bandwidth = estimate_bandwidth(X, quantile=0.1, n_samples=500)
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=False, max_iter=500, cluster_all=False, min_bin_freq=3)
+Number of Clusters: 516
+Silhouette Score: 0.4466264843940735
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=False, max_iter=500, cluster_all=True, min_bin_freq=3)
+Number of Clusters: 515
+Silhouette Score: 0.4514042139053345
+
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=3)
+Number of Clusters: 26
+Silhouette Score: 0.5083891153335571
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=5)
+Number of Clusters: 17
+Silhouette Score: 0.5070872902870178
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=10)
+Number of Clusters: 7
+Silhouette Score: 0.47959133982658386
+
+mean_shift = MeanShift(bandwidth=bandwidth, bin_seeding=True, max_iter=500, cluster_all=True, min_bin_freq=20)
+Number of Clusters: 5
+Silhouette Score: 0.44852083921432495

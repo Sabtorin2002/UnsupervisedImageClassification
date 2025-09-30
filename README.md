@@ -1,5 +1,3 @@
-content = """# Image Classification with Unsupervised Clustering
-
 This project explores **unsupervised clustering techniques** for image classification, focusing on car images.  
 The goal was to evaluate how different feature extraction methods impact clustering performance.
 
